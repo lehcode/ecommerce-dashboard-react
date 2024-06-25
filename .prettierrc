@@ -1,3 +1,15 @@
 {
-  "singleQuote": true
+  "singleQuote": true,
+  "tabWidth": 2,
+  "printWidth": 120,
+  "editorconfig": true,
+  "overrides": [
+    {
+      "files": [".html", ".json"],
+      "options": {
+        "tabWidth": 4
+      }
+    }
+  ],
+  "plugins": ["prettier-plugin-tailwindcss"]
 }
